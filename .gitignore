@@ -33,7 +33,7 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
-!build/android
+!build/android/release/app-release.apk
 #
 
 # Symbolication related
