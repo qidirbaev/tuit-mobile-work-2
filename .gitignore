@@ -5,24 +5,17 @@
 *.swp
 .DS_Store
 .atom/
-.build/
 .buildlog/
 .history
 .svn/
 .swiftpm/
 migrate_working_dir/
 
-
 # IntelliJ related
 *.iml
 *.ipr
 *.iws
 .idea/
-
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
 
 # Flutter/Dart/Pub related
 **/doc/api/
@@ -33,10 +26,10 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 
-build/
+# Ignore all in build directory except android subfolder
+build/*
 !build/android/
-
-#
+!build/android/**
 
 # Symbolication related
 app.*.symbols
